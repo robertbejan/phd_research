@@ -29,4 +29,3 @@ G = power_set(E)
 X_1 = {HH: 1, HT: 1, TH: 0, TT: 0}
 # Random variable after two coin flips
 X_2 = {HH: 2, HT: 1, TH: 1, TT: 0}
-
