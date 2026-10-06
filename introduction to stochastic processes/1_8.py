@@ -11,7 +11,6 @@ def simulate_1d_bm(nsteps=1000, t=0.01):
 def simulate_2d_bm(nsteps=1000000, t=0.01):
     steps_y = [ np.random.randn()*np.sqrt(t) for i in range(nsteps) ]
     steps_x = [ np.random.randn()*np.sqrt(t) for i in range(nsteps) ]
-    tau = 10
     print(np.mean(np.array([steps_y[1], steps_y[2]])))
     y = np.cumsum(steps_y)
     x = np.cumsum(steps_x)
