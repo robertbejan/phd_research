@@ -112,3 +112,30 @@ C(t) = integral_on_R(e^iwt * sigma(dw))
 The measure simga(dw) is called the spectral measure of the process Xt.
 
 The correlation time = teta_cor. The slower of the decay of the correlation function, the larger the correlation time.
+
+## Definition 1.8
+
+W(t) : R+ -> R is a real-valued stochastic process (Brownian motion) with almost surely continuous paths such that:
+1. W(0) = 0,
+2. It has independent increments
+3. for every t > s >= 0, the increment W(t)-W(s) has a gaussian distribution with mean = and variance t-s
+
+The density of the random variable W(t) - W(s) is:
+g(x;t,s) = (2*pi(t-s))^1/2 * exp(-x^2/(2(t-s))) - in one dimension
+g(x;t,s) = (2*pi(t-s))^-d/2 * exp(-norm2(x)/2(t-s))
+
+## Theorem 1.3 (Wiener)
+
+There exists an almost surely continuous process Wt with independent increments such that W0=0 and for each t>=0, the random variable Wt is N(0,t). Furthermore, Wt is almost surely locally Holder continuous with exponent alpha for every alpha in (0,1/2)
+
+## Proposition 1.5
+
+1. Rescaling: X_t = 1/sqrt(c)*W(ct) => Brownian motion looks the same at each timestep
+2. Shifting: X_t = W_c+t - W_c => Brownian motion restarts fresh at each time t. It doesn't depend on the past (Markovian).
+3. Time reversal: X_t = W_1-t - W_1 => Recording a Brownian motion from 0 to T and then from T to 0 is statistically the same path.
+4. Inversion: X0=0, X_t = tW(1/t). Then X0 and X_t look the same at 0 and inf
+
+Brownian motion with drift mu and variance sigma^2 as the process: X_t = mu*t + sigma*W_t
+
+The mean is E(X_t) = mu*t and the variance is E(X_t-E*X_t)^2 = sigma^2*t
+
