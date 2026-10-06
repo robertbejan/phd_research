@@ -1,3 +1,4 @@
+# Introduction into stochastic processes
 ## Definition 1.1
 
 Explanation:
@@ -62,4 +63,52 @@ for X in XN:
     X = miu_N + std * N(0,1)
 '''
 
+# Stationary Processes
 ## Definition 1.5
+Let Y0, Y1 be a sequence of independently identically distributed random variables and consider the stochastic process Xn = Yn. Then Xn is a strictly stationary process. Assume that EY0 = mu <+inf. Then, by the law of large numbers, we have that the average of the random variables Xn equals to the average of the random variables Yn and equals to the expectation of Y0 which also equals to mu (the mean). We can also have the same thing for a function f with Ef(Y0)=lim of average of f(Xj).
+
+So basically, the expectation given one random variable, gives the mean or the average of all of the values of the random variables in the sequence almost surely.
+
+The formal definition is:
+P(X_t1 in A1, X_t2 in A2, ..., X_tk in Ak) = P(X_t1+s in A1, X_t2+s in A2, ..., X_tk+s in Ak)
+When asked to prove it, use the independence and idetically distributed properties.
+Independence: P(Y_i in A, Y_j in B) = P(Y_i in A) * P(Y_j in B)
+Identically Distributed: P(Y_i in A) = P(Y_j in B)
+
+So what is a strictly stationary process?
+R: A strictly stationary process is a stochastic process for which there is more than one equal s-shifted stochastic processes.
+It means that the joint probability of all of the random variables are equal. 
+EX: Ideal Coin Toss. Any stochastic process will lead to the same probability (50/50)
+
+## Definition 1.6
+A stochastic process X_t in L^2 is called second-order stationary if the first moment EX_t is a constant and the covariance function E(X_t-mu)(X_s-mu) depends only on the difference t-s:
+
+EX_t = mu, E((X_t-mu)(X_s-mu)) = C(t-s)
+
+Let X_t be a strictly stationary stochastic process with finite second moment. If it's strictly stationary it implies that EX_t = mu, a constant, and E((X_t-mu)(X_s-mu)) = C(t-s). Hence, a strictly stationary process with finite second moment is also stationary in the wide sense;
+
+If X_n = Y_n and we assume that EY_0 = 0 and EY_0^2=mu^2 <+inf, then X_n is a second-order stationary process with mean zero and correlation function R(k) = mu^2*delta_k0. We have no correlation among the values of the stochastic process at different times.
+
+If X_n = Z and we assume that EZ_0 = 0 and EZ_0^2 = mu^2, then X_n becomes a second-order stationary process with mean zero and correlation function R(k) = mu^2. We have strongly correlated values in the stochastic process at different time steps.
+
+Continuity in the stochastic process is when the limit of the expectation of the between the difference of X_t+h and X_t is 0.
+
+### Lemma 1.1
+
+The covariance function C(t) of a second-order stationary process is continuous for all t in R. The continuity of C(t) is equivalent to the continuity of the process X_t in the L^2 sense. 
+
+E(X_t+h - X_t)^2 = 2(C(0)-C(h)) which converges to 0 as h-->0.
+
+We can use the Fourier Transform on the covariance function of a seconod-order stationary process.
+
+## Definition 1.7 
+
+The covariance function of a second-order stationary process is a non-negative definite function.
+
+## Theorem 1.1 (Bochner) for Fourier transformation of the autocorrelation function C(t)
+
+C(t) = integral_on_R(e^iwt * sigma(dw))
+
+The measure simga(dw) is called the spectral measure of the process Xt.
+
+The correlation time = teta_cor. The slower of the decay of the correlation function, the larger the correlation time.

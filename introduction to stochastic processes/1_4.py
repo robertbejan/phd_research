@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('TkAgg')
 
-dt = 0.1
-N = 10
+dt = 0.01
+N = 100
 t = [i * dt for i in range(int(N))]
 mu = np.zeros(N)
 def C(s,t):
@@ -13,6 +13,7 @@ def C(s,t):
     return sigma_f**2 * np.exp(-0.5 * (s-t)**2 / length_scale**2)
 
 Gamma = np.zeros((N,N))
+print(Gamma)
 for i in range(N):
     for j in range(N):
         Gamma[i,j] = C(t[i], t[j])
@@ -46,4 +47,3 @@ print(X)
 # The Cholensky factorization is used to generate the correlated random variables from the standard normal random variables xi.
 # The resulted vector X is a sample of size N from the Gaussian process defined by the sum between the mean vector of size N and the dot product of the lambda matrix and the sampled number from the standard normal distribution.
 # This experiment shows how to generate a sample path of a Gaussian process.
-

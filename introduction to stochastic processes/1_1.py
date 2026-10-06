@@ -15,17 +15,21 @@ def power_set(s):
 
     return result
 
-T = {1, 2}
+T = (1, 2)
 # Probability space
-omega = {(HH), (HT), (TH), (TT)}
+omega = ("HH", "HT", "TH", "TT")
 F = power_set(omega)
-P = {1/4, 1/4, 1/4, 1/4}
+print(F)
+P = (1/4, 1/4, 1/4, 1/4)
 
 # Measure space
 E = (0, 1, 2)
 G = power_set(E)
+print(G)
 
 # Random variable after one coin flip
-X_1 = {HH: 1, HT: 1, TH: 0, TT: 0}
+X_1 = {"HH": 1, "HT": 1, "TH": 0, "TT": 0}
 # Random variable after two coin flips
-X_2 = {HH: 2, HT: 1, TH: 1, TT: 0}
+X_2 = {"HH": 2, "HT": 1, "TH": 1, "TT": 0}
+
+X = [X_1, X_2]
