@@ -4,6 +4,17 @@
 Book sections: 1.3 (Theorem 1.2 Kolmogorov, Theorem 1.3 Wiener, modifications),
 1.5 (condition (1.28) and the continuity of $R(t,s)$).
 
+> **Prerequisites** (read these first if the maths is new):
+> `Primer/09_stochastic_processes_primer.md` §1–§2 — what a process is,
+> finite-dimensional distributions, and the crucial distinction
+> equivalent / modification / indistinguishable, plus Kolmogorov's continuity
+> criterion;
+> `Primer/10_brownian_ou_poisson.md` §1 and §4 — Brownian moments
+> ($\mathbb E|W_t-W_s|^4=3(t-s)^2$) and the Poisson process (why its increments are
+> linear, not super-linear, in $t-s$);
+> `Primer/03_probability_primer.md` §6 — Cauchy–Schwarz, Markov and Chebyshev, which
+> are the whole of Exercise 19.
+
 ---
 
 ## The tools

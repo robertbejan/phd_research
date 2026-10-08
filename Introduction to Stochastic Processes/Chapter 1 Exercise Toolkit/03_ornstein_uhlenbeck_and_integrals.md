@@ -4,6 +4,18 @@
 Book sections: 1.2 (Example 1.5, eqs. (1.9)–(1.11)), 1.4 (OU, Lemma 1.6, Brownian
 bridge (1.23)–(1.25)).
 
+> **Prerequisites** (read these first if the maths is new):
+> `Primer/01_calculus_primer.md` §5–§7 — integrals, Fubini, and the "$\min$ split"
+> of a double integral;
+> `Primer/08_odes_and_green_functions.md` §2 — first-order linear ODEs, the origin of
+> every $e^{-\alpha t}$;
+> `Primer/09_stochastic_processes_primer.md` §6 — variance of an integral of a
+> stationary process (the double-integral reduction);
+> `Primer/10_brownian_ou_poisson.md` §1–§3 — Brownian motion, the Wiener integral and
+> Itô isometry, and the Ornstein–Uhlenbeck process (SDE, solution, time change
+> $V_t=e^{-t}W(e^{2t})$, stationary version).
+> Techniques 1–5 and 7 of `Primer/11_recurring_techniques.md`.
+
 ---
 
 ## The tools

@@ -4,6 +4,18 @@
 Book sections: 1.5 (Theorem 1.4, the eigenvalue problem (1.32), Example 1.7 for
 Brownian motion, eqs. (1.30)–(1.36)).
 
+> **Prerequisites** (read these first if the maths is new):
+> `Primer/06_functions_as_vectors_and_operators.md` §5–§9 — eigenfunctions, the
+> spectral theorem, Mercer, and Sturm–Liouville;
+> `Primer/08_odes_and_green_functions.md` §4–§5 — boundary value problems (Dirichlet
+> vs Neumann), why boundary conditions quantise the eigenvalues, and how to convert
+> an integral equation into an ODE by differentiating twice;
+> `Primer/07_fourier_primer.md` §2 — sine vs cosine bases and the $\sqrt2$
+> normalisation;
+> `Primer/05_linear_algebra_primer.md` §3–§4 — the 2×2 eigenproblems you need for the
+> rank-one/degenerate kernels.
+> Techniques 8 and 9 of `Primer/11_recurring_techniques.md`.
+
 ---
 
 ## The tools

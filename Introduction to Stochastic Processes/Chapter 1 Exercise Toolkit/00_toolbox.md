@@ -4,6 +4,13 @@ These are the tools used again and again across Chapter 1. Learn them once and
 most exercises become bookkeeping. Everything is stated for real-valued random
 variables unless noted.
 
+> **Prerequisites.** Every line here is used by *every* exercise, so this is the very
+> first file to make sense of. If anything below is unclear, read
+> `Primer/00_START_HERE.md` (symbol dictionary + glossary), then
+> `Primer/03_probability_primer.md` §2–§6 (expectation, variance, covariance,
+> independence, inequalities) and `Primer/04_gaussian_primer.md` §1–§5 (the normal
+> distribution, characteristic functions, linear maps of Gaussians).
+
 ## 1. Expectation and covariance
 
 - **Linearity** (always true): $\mathbb E[aX+bY]=a\,\mathbb EX+b\,\mathbb EY$.

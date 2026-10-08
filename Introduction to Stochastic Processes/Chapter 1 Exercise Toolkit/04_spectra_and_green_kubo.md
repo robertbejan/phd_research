@@ -4,6 +4,19 @@
 Book sections: 1.2 (Bochner Thm 1.1, spectral density (1.7)–(1.8), correlation time,
 Example 1.5, Green–Kubo (1.14)–(1.15)).
 
+> **Prerequisites** (read these first if the maths is new):
+> `Primer/07_fourier_primer.md` §3–§5 — the Fourier transform, the master transform
+> $\int e^{-i\omega t}e^{-\alpha|t|}dt=\frac{2\alpha}{\alpha^2+\omega^2}$, where the
+> $\frac{1}{2\pi}$ lives, and the half-line $\int_0^\infty e^{-\alpha t}\cos(\beta t)dt$
+> integrals;
+> `Primer/09_stochastic_processes_primer.md` §5–§6 — spectral density, correlation
+> time, Green–Kubo and the double-integral reduction;
+> `Primer/08_odes_and_green_functions.md` §3 — the damped oscillator (needed for
+> Exercise 16's correlation);
+> `Primer/01_calculus_primer.md` §5–§6 — integration by parts and exponential
+> integrals.
+> Techniques 5 and 11 of `Primer/11_recurring_techniques.md`.
+
 ---
 
 ## The tools

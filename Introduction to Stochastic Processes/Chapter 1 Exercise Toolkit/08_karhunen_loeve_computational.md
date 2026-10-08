@@ -5,6 +5,16 @@ Book sections: 1.1 (simulating Gaussian processes via the covariance square root
 1.5 (Theorem 1.4, (1.35), Example 1.7), and the analytic KL results you derived in
 Exercises 23–26.
 
+> **Prerequisites** (read these first if the maths is new):
+> `Primer/05_linear_algebra_primer.md` §7 — Cholesky $LL^\top$ and why $L\zeta$ has
+> covariance $LL^\top$;
+> `Primer/06_functions_as_vectors_and_operators.md` §6 — Mercer / trace, i.e. why
+> truncating the expansion is legitimate;
+> `Primer/08_odes_and_green_functions.md` §5 — kernel $\to$ ODE (used for the
+> exponential-covariance field of Exercise 28);
+> plus the analytic eigenpairs from toolkit file 07 (Exercises 23–26).
+> Techniques 3 and 9 of `Primer/11_recurring_techniques.md`.
+
 ---
 
 ## The tools

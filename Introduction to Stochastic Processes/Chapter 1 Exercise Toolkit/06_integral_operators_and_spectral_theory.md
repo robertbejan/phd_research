@@ -4,6 +4,18 @@
 Book sections: 1.5 (operator $R$ in (1.32), self-adjointness/nonnegativity,
 Mercer's theorem, (1.30)/(1.32)/(1.35)).
 
+> **Prerequisites** (read these first if the maths is new):
+> `Primer/06_functions_as_vectors_and_operators.md` — **read all of it**: the
+> $\sum\to\int$ translation, $L^2(0,1)$, inner products of functions, what an
+> operator and a kernel are, adjoint/self-adjoint/nonnegative, eigenvalues and
+> eigenfunctions, the spectral theorem, Mercer and the trace identity, and
+> Hilbert–Schmidt;
+> `Primer/05_linear_algebra_primer.md` §3–§6 — eigenvalues, the spectral theorem for
+> symmetric matrices, trace, and positive semi-definiteness (the finite-dimensional
+> twin of everything here);
+> `Primer/07_fourier_primer.md` §2 — why eigenfunctions come with a $\sqrt2$.
+> Technique 10 of `Primer/11_recurring_techniques.md`.
+
 ---
 
 ## The tools

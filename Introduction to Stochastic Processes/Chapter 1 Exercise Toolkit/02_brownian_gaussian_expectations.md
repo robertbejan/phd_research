@@ -4,6 +4,16 @@
 Book sections: 1.3 (Def. 1.8, eqs. (1.17), Prop. 1.5), 1.4 (Lemma 1.6, Brownian
 bridge (1.23)–(1.25), fractional BM Def. 1.9, eqs. (1.26)–(1.27)).
 
+> **Prerequisites** (read these first if the maths is new):
+> `Primer/04_gaussian_primer.md` §1–§6 — the normal law, its characteristic function
+> $\mathbb E e^{i\theta X}=e^{-\theta^2\sigma^2/2}$, multivariate Gaussians,
+> "linear maps of Gaussians are Gaussian", "mean + covariance = the whole law";
+> `Primer/02_complex_numbers_and_trig.md` §3–§4 — Euler's formula and the trig
+> products-to-sums identities;
+> `Primer/10_brownian_ou_poisson.md` §1 — Brownian motion built from its four
+> defining properties (independent Gaussian increments, continuous paths).
+> Technique 4 and 6 of `Primer/11_recurring_techniques.md`.
+
 ---
 
 ## The tools

@@ -4,6 +4,14 @@
 Book sections: 1.1 (Definition 1.1), 1.2 (Definitions 1.5–1.6, eqs. (1.1)–(1.3)),
 Examples 1.1–1.4.
 
+> **Prerequisites** (read these first if the maths is new):
+> `Primer/03_probability_primer.md` §1–§4, §6, §8 — random variables, expectation,
+> variance, covariance, independence, modes of convergence;
+> `Primer/09_stochastic_processes_primer.md` §1, §3, §4 — what a process is,
+> stationarity, ergodicity and time averages;
+> `Primer/02_complex_numbers_and_trig.md` §4 — the trig product-to-sum identities.
+> Techniques 12 and 13 of `Primer/11_recurring_techniques.md`.
+
 ---
 
 ## The tools
