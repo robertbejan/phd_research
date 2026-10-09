@@ -139,3 +139,8 @@ Brownian motion with drift mu and variance sigma^2 as the process: X_t = mu*t + 
 
 The mean is E(X_t) = mu*t and the variance is E(X_t-E*X_t)^2 = sigma^2*t
 
+# The Ornstein-Uhlenbeck
+
+This chapter explains that the Ornstein-Uhlenbeck is basically a stochastic process with mean 0 and covariance function:
+R(t) = e^-abs(t)
+The function of the process is V(t)=e^-t*W(e^2t)
